@@ -22,6 +22,14 @@ function editComment(text) {
 	}
 }
 
+function removeComment(text) {
+	return {
+		type: REMOVE_COMMENT,
+		id: 20,
+		text: 'usunięcie komentarza'
+	}
+}
+
 function thumbUpComment(text) {
 	return {
 		type: THUMB_UP_COMMENT,
